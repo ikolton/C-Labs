@@ -1,0 +1,6 @@
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab2/cmake-build-debug/CMakeFiles/DynamicContainer.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab2/cmake-build-debug/CMakeFiles/StaticContainer.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab2/cmake-build-debug/CMakeFiles/StaticContainer2.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab2/cmake-build-debug/CMakeFiles/String.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

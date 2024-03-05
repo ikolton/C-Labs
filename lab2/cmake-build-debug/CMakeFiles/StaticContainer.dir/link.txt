@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/StaticContainer.dir/Ex1_StaticContainer.cpp.o -o StaticContainer 

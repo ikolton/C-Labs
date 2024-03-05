@@ -87,8 +87,8 @@ A A
  */
 
 #include <iostream>
-#include <algorithm>
-#include <numeric> // For std::iota
+
+//#include <numeric>
 using namespace std;
 
 class Matrix {
@@ -276,7 +276,7 @@ int main() {
     cout << l2 << endl;
     cout << l3 << endl;
     cout << l2.getLabel() << " " << l3.getLabel() << endl;
-    //cout << l1.getLabel() << endl;
+    cout << l1.getLabel() << endl;
 
     return 0;
 }
