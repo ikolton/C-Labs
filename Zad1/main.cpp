@@ -218,30 +218,30 @@ public:
  • Explicitly add default move constructors and assignment operators
      */
 
-//    MatrixWithLabel(const MatrixWithLabel &other) : Matrix(other), label(other.label) {
-//    }
-//
-//    MatrixWithLabel &operator=(const MatrixWithLabel &other) {
-//        cout << "copy assignment operator of matrix with label " << label << endl;
-//        if (this != &other) {
-//            Matrix::operator=(other);
-//            label = other.label;
-//        }
-//        return *this;
-//    }
-//
-//    MatrixWithLabel(MatrixWithLabel &&other) : Matrix(move(other)), label(move(other.label)) {
-//        cout << "move constructor of matrix with label " << label << endl;
-//    }
-//
-//    MatrixWithLabel &operator=(MatrixWithLabel &&other) {
-//        cout << "move assignment operator of matrix with label " << label << endl;
-//        if (this != &other) {
-//            Matrix::operator=(move(other));
-//            label = move(other.label);
-//        }
-//        return *this;
-//    }
+    MatrixWithLabel(const MatrixWithLabel &other) : Matrix(other), label(other.label) {
+    }
+
+    MatrixWithLabel &operator=(const MatrixWithLabel &other) {
+        cout << "copy assignment operator of matrix with label " << label << endl;
+        if (this != &other) {
+            Matrix::operator=(other);
+            label = other.label;
+        }
+        return *this;
+    }
+
+    MatrixWithLabel(MatrixWithLabel &&other) : Matrix(move(other)), label(move(other.label)) {
+        cout << "move constructor of matrix with label " << label << endl;
+    }
+
+    MatrixWithLabel &operator=(MatrixWithLabel &&other) {
+        cout << "move assignment operator of matrix with label " << label << endl;
+        if (this != &other) {
+            Matrix::operator=(move(other));
+            label = move(other.label);
+        }
+        return *this;
+    }
 
 };
 
@@ -273,10 +273,10 @@ int main() {
     l1.setLabel("A");
     MatrixWithLabel l2 = l1;
     MatrixWithLabel l3 = move(l1);
-    cout << l2 << endl;
-    cout << l3 << endl;
+//    cout << l2 << endl;
+//    cout << l3 << endl;
     cout << l2.getLabel() << " " << l3.getLabel() << endl;
-    cout << l1.getLabel() << endl;
+    //cout << l1.getLabel() << endl;
 
     return 0;
 }
