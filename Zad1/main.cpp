@@ -197,8 +197,9 @@ public:
 };
 
 class MatrixWithLabel : public Matrix {
-    string label;
+    string label="a";
 public:
+    using Matrix::Matrix;
     MatrixWithLabel(const string &label, int N, int M) : Matrix(N, M), label(label) {
     }
 
@@ -268,7 +269,7 @@ int main() {
 
     cout << "Inheritance \n";
     MatrixWithLabel l0("B", 3, 4);
-    MatrixWithLabel l1("a", {{1,2},{4,5}});
+    MatrixWithLabel l1({{1,2},{4,5}});
     //MatrixWithLabel l1({{1,2},{4,5}});
     l1.setLabel("A");
     MatrixWithLabel l2 = l1;

@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Box.h"
+using namespace std;
 
 class Container{
     // Exercise 2: Use smart pointer.
