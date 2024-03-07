@@ -2,6 +2,8 @@
 #ifndef LAB2_MYSTRING_H
 #define LAB2_MYSTRING_H
 
+
+
 #include <iostream>
 
 namespace emcpp{
