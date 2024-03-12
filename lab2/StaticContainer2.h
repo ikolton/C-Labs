@@ -7,18 +7,17 @@ class Container : public Box {
 public:
     static bool verbose;
     Container(int content):Box(content){};                          // implement
-    Container(const Container & container): Box(container){
+    Container(const Container & container) {
         if(verbose) std::cout << "Container: copy constructor.\n";
     };             // disable
  	Container & operator=(const Container &container){
         if(verbose) std::cout << "Container: copy assignment.\n";
-        Box::operator=(container);
+
         return *this;
      };  // disable
 
-	Container(Container && container){
+	Container(Container && container): Box(std::move(container)){
         if(verbose) std::cout << "Container: move constructor.\n";
-        Box::operator=(std::move(container));
     };                  // enable
   	Container & operator=(Container &&container){
         if(verbose) std::cout << "Container: move assignment.\n";
