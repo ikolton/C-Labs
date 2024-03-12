@@ -44,7 +44,7 @@ public:
         (*pstr)[index] = ch;
     };
     /// no copy
-    char get(int index) const{
+    [[nodiscard]] char get(int index) const{
         return (*pstr)[index];
     };
     /// creates a new string only if both strings are non empty
