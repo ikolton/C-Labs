@@ -1,8 +1,8 @@
-# Install script for directory: F:/Programowanie/UJ/CPP-Labs/Zad1
+# Install script for directory: F:/Programowanie/UJ/CPP-Labs/Lab3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Zad1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Lab3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/Programowanie/UJ/CPP-Labs/Zad1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Programowanie/UJ/CPP-Labs/Lab3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
