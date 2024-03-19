@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Lab3.exe"
-		},
-		{
-			"path" : "Lab3.pdb"
+			"path" : "Lab4"
 		}
 	],
 	"backtrace" : 1,
@@ -53,11 +50,12 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
-	"id" : "Lab3::@6890427a1f51a3e7e1df",
+	"id" : "Lab4::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,16 +67,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "Lab3",
-	"nameOnDisk" : "Lab3.exe",
+	"name" : "Lab4",
+	"nameOnDisk" : "Lab4",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +85,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -100,13 +95,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "function_pointers.cpp",
+			"path" : "templates.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lambda_expressions.cpp",
+			"path" : "compare.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "selectif.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,2 +1,2 @@
 - 5
-- My text3
+- My text

@@ -27,7 +27,7 @@ double function(int n, double y, double z, F f, G g) {
     return (f(n, y) > z) ? g(z, y) : g(y, z);
 }
 
-int nmain() {
+int bmain() {
     SqrtFuncPtr fp1 = sqrtn;
     PowerFuncPtr fp2 = power;
     double (*fp3)(int, double, double, SqrtFuncPtr, PowerFuncPtr) = function;

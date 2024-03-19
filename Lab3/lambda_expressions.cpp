@@ -16,7 +16,7 @@ void print(const std::vector<int> & v, const std::string & label = ""){
     cout << endl;
 }
 
-int mmain(){
+int emain(){
     std::vector<int> v = {256, 64, 16*3, 16*9, 16, 8*7, -9, -3, 1, 6, -2, 5, 9, 0};
     print(v, "original:");
 
@@ -133,7 +133,7 @@ int mmain(){
     /// a function with one parameter x that computes
     /// a value of a polynomial of degree n with coefficients a at the point x.
     auto polynomial = [](double *a, int n) {
-        return [=](double x) {
+        return [a,n](int x) {
             double result = 0;
             for (int i = 0; i <= n; ++i) {
                 result += a[i] * pow(x, i);

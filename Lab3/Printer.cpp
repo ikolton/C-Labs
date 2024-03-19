@@ -34,7 +34,7 @@ public:
     }
 };
 
-int main(){
+int cmain(){
     /// Creates unary functor that takes one argument x (of any type)
     /// and outputs to given stream x surrounded by given prefix na postfix
     /// e.g. in the following  [ x ]
@@ -48,7 +48,7 @@ int main(){
     std::ofstream file("myFile.txt");
     Printer filePrinter(file, "- ", "\n");
     filePrinter(5);
-    filePrinter("My text3");
+    filePrinter("My text");
     return 0;
 }
 /** myFile.txt
