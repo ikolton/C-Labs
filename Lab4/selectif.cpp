@@ -25,7 +25,7 @@ std::list<int> result = selectIf<std::list>(v, biggerThan5);
 
 bool biggerThan5(int x){ return x>5; }
 
-template <template<typename, typename> class OutContainer, typename T, typename Alloc, template<typename, typename> class InContainer, typename Predicate>
+template <template<typename, typename> class OutContainer, template<typename, typename> class InContainer, typename T, typename Alloc, typename Predicate>
 OutContainer<T, Alloc> selectIf(const InContainer<T, Alloc>& c, Predicate p) {
     OutContainer<T, Alloc> result;
     std::copy_if(c.begin(), c.end(), std::back_inserter(result), p);

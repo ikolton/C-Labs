@@ -6,10 +6,10 @@
 #include <cmath>
 using namespace std;
 
-// Function pointer for sqrtn
+
 typedef double (*SqrtFuncPtr)(int, double);
 
-// Function pointer for power
+
 typedef double (*PowerFuncPtr)(double, double);
 
 // Computes n-th root of x

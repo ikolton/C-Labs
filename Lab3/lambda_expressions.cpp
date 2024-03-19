@@ -99,7 +99,7 @@ int emain(){
     /// Changing start does not change the beginning of the sequence
     /// but a change of step influences the function output.
     int start = 5, step =2;
-    auto arithmeticGenerator = [&currentValue=start, &step]() -> int {
+    auto arithmeticGenerator = [currentValue=start, &step]() mutable -> int  {
         currentValue += step; // Update start for next invocation
         return currentValue;
     };                 // [ 4 ]
