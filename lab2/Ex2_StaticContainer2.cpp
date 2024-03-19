@@ -9,9 +9,9 @@ int main() {
     Container p2(10);
     Container p3 = p1 + p2;
 
-// The following lines should not compile
-    //  Container copy(p2); // ERROR!!!
-    //  p3 = p1;            // ERROR!!!
+ //The following lines should not compile
+//      Container copy(p2); // ERROR!!!
+//      p3 = p1;            // ERROR!!!
 
     cout << p1 << p2 << p3 << endl;
 
