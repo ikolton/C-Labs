@@ -60,7 +60,7 @@ struct Rational{
 
 
 
-int bmain(){
+int main(){
     int a = 1, b=-6;
     float  y= 1.0 + 1e20 - 1e20, x = 1.0;
     Rational p{2}, q{1,4}, r{8,4};

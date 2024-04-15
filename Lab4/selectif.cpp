@@ -2,6 +2,8 @@
 #include <vector>
 #include <list>
 #include <deque>
+#include <algorithm>
+
 using namespace std;
 /*
  * Implement a function template
@@ -26,7 +28,7 @@ std::list<int> result = selectIf<std::list>(v, biggerThan5);
 bool biggerThan5(int x){ return x>5; }
 
 template <template<typename, typename> class OutContainer, template<typename, typename> class InContainer, typename T, typename Alloc, typename Predicate>
-OutContainer<T, Alloc> selectIf(const InContainer<T, Alloc>& c, Predicate p) {
+OutContainer<T, Alloc> selectIf(const InContainer<T, Alloc> c, Predicate p) {
     OutContainer<T, Alloc> result;
     std::copy_if(c.begin(), c.end(), std::back_inserter(result), p);
     return result;

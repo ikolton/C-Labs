@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.27"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Lab4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Lab4-Debug-1c2e0ddfbafacec3b083.json",
+					"jsonFile" : "target-Lab4-Debug-caafc391c28627c0776b.json",
 					"name" : "Lab4",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab4/cmake-build-debug",
-		"source" : "/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab4"
+		"build" : "F:/Programowanie/UJ/CPP-Labs/Lab4/cmake-build-debug",
+		"source" : "F:/Programowanie/UJ/CPP-Labs/Lab4"
 	},
 	"version" : 
 	{

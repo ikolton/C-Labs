@@ -107,7 +107,7 @@ void process(T array[]){
 
 
 
-int amain(){
+int main(){
 
     // function template  sqr<T>
     cout << sqr(4) << endl;             // 16
