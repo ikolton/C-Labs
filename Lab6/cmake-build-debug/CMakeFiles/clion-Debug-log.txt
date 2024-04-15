@@ -1,0 +1,13 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -DBOOST_ROOT=C:/Users/ignaj/Downloads/boost_1_84_0/ -G Ninja -S F:\Programowanie\UJ\CPP-Labs\Lab6 -B F:\Programowanie\UJ\CPP-Labs\Lab6\cmake-build-debug
+-- Configuring done (0.3s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    //ex2_proxy.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: Lab6
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
