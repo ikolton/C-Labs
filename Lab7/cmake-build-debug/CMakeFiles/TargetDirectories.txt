@@ -1,6 +1,2 @@
-/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir
-/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir
-/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir
-/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir
-/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/Programowanie/UJ/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Programowanie/UJ/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
