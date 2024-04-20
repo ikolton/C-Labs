@@ -15,16 +15,16 @@ m.push_back(1.2);
  */
 using namespace std;
 
-// Forward declaration of MultiVector class template
+
 template<typename... Args>
 class MultiVector;
 
-// Partial specialization for an empty parameter pack
+
 template<>
 class MultiVector<> {
 public:
-    void push_back() {} // Base case push_back for empty pack
-    void print() const { std::cout << std::endl; } // Base case print for empty pack
+    void push_back() {}
+    void print() const { std::cout << std::endl; }
 };
 
 // Recursive class template to store elements of different types in separate containers

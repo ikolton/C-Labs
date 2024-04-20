@@ -1,0 +1,4 @@
+# ninja log v5
+0	417	1713444928561411312	CMakeFiles/ex1_type_traits.dir/ex_8_1_type_traits.cpp.o	60a11c356fd8fe07
+418	516	1713444928661411443	ex1_type_traits	dcc473b26548edce
+4	388	1713445218341773834	CMakeFiles/ex2_traits.dir/ex_8_1_type_traits.cpp.o	ac4f97c6c5efbd3a
