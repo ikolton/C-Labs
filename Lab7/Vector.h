@@ -171,7 +171,7 @@ public:
         P::check_index(list.size(), N);
         std::copy(list.begin(), list.begin() + N, data);
     }
-    size_type size() const {
+    [[nodiscard]] size_type size() const {
         return N;
     }
 
