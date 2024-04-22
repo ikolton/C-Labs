@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/Programowanie/UJ/CPP-Labs/Zad1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qtvmkf"
-      binary: "F:/Programowanie/UJ/CPP-Labs/Zad1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qtvmkf"
+      source: "F:/Programowanie/UJ/CPP-Labs/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qtvmkf"
+      binary: "F:/Programowanie/UJ/CPP-Labs/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qtvmkf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -233,8 +233,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/Programowanie/UJ/CPP-Labs/Zad1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0d2u9z"
-      binary: "F:/Programowanie/UJ/CPP-Labs/Zad1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0d2u9z"
+      source: "F:/Programowanie/UJ/CPP-Labs/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0d2u9z"
+      binary: "F:/Programowanie/UJ/CPP-Labs/lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0d2u9z"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"

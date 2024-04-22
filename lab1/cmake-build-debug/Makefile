@@ -117,7 +117,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Zad1
+# Target rules for targets named lab1
 
 # Build rule for target.
 Zad1: cmake_check_build_system

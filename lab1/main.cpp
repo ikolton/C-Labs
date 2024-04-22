@@ -1,7 +1,7 @@
 
 
 /*
- * Zad1
+ * lab1
  * Implement a class Matrix that will store a two dimensional matrix (N x M) with double coefficients.
  Coefficients should be stored in dynamically allocated one dimensional array (referred as data).
 Provide the following functionalities:

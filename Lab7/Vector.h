@@ -91,9 +91,62 @@ struct vector_traits<std::string> {
     }
 };
 
-template <typename T, size_t N >
-class Vector {
+/*
+ *  To class template Vector<T,N> add template parameter P that will pass policies:
+ • init policy: decides if default constructor initializes vector with default values (zeroes).
+• check policy: defines if methods get and set are checking indices and how they react on the
+out of bound error.
+ Create policies: safePolicy (it initializes, checks indices and throws exception) and fastPolicy (do
+not initializes and do not  checks indices).
+ Is there a way to easily define all combinations of policies?
+ Vector<int, 5, SafePolicy> a;
+ a.set(6, 9); // throws an exception
+ Vector<double, 4, FastPolicy> b;
+ b.set(6, 0);   // the result is unspecified
+ */
+
+struct SafeInitPolicy {
+    template<typename T, size_t N>
+    static void initialize(T (&data)[N]) {
+        for (int i = 0; i < N; ++i) {
+            data[i] = vector_traits<T>::default_value();
+        }
+    }
+};
+
+struct FastInitPolicy {
+    template<typename T, size_t N>
+    static void initialize(T (&data)[N]) {
+    }
+};
+
+struct SafeCheckPolicy {
+    static void check_index(size_t index, size_t size) {
+        if (index >= size){
+            throw std::out_of_range("Index out of range");
+        }
+    }
+};
+
+struct FastCheckPolicy {
+    static void check_index(size_t index, size_t size) {
+    }
+};
+
+struct SafePolicy : SafeInitPolicy, SafeCheckPolicy {
+};
+
+struct FastPolicy : FastInitPolicy, FastCheckPolicy {
+};
+
+struct InitFastPolicy : SafeInitPolicy, FastCheckPolicy {
+};
+
+template <typename T, size_t N, typename P = FastPolicy>
+class Vector : P {
     T data[N];
+
+
 public:
     typedef T value_type;
     typedef std::size_t  size_type;
@@ -101,22 +154,34 @@ public:
     typedef T& reference;
     typedef const T& const_reference;
 
-    Vector() = default;
-    Vector(const Vector & v) = default;
-    Vector &operator=(const Vector & m) = default;
+    Vector() {
+        P::initialize(data);
+    };
+    Vector(const Vector & v) {
+        P::check_index(v.size(), N);
+        std::copy(v.data, v.data + N, data);
+    };
+    Vector &operator=(const Vector & m) {
+        P::check_index(m.size(), N);
+        std::copy(m.data, m.data + N, data);
+        return *this;
+    };
 
     Vector(const std::initializer_list<T> &list){
-        std::copy(list.begin(), list.end(), data);
+        P::check_index(list.size(), N);
+        std::copy(list.begin(), list.begin() + N, data);
     }
     size_type size() const {
         return N;
     }
 
     const typename vector_traits<T>::argument_type get(size_type index) const {
+        P::check_index(index, N);
         return data[index];
     }
 
     void set(size_type index, typename vector_traits<T>::argument_type value) {
+        P::check_index(index, N);
         data[index] = value;
     }
 

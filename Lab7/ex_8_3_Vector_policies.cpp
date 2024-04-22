@@ -8,9 +8,9 @@ int main() {
         Vect a{};
         a.set(1, -1);              // OK
         cout << a << endl;         // 0 -1 0
-        a.set(-1, 1.);             // Exception
-        cout << a.get(3) << endl;  // Exception
-        Vect b{1, 2, 3, 4};        // Exception
+//        a.set(-1, 1.);             // Exception
+//        cout << a.get(3) << endl;  // Exception
+//        Vect b{1, 2, 3, 4};        // Exception
     }
     { /// does not initialize by default and does not check indices
         using Vect = Vector<double, 3, FastPolicy>;
@@ -32,5 +32,6 @@ int main() {
         cout << a.get(3) << endl;  // Unspecified
         Vect b{1, 2, 3, 4};        // OK: it makes copy of only first three values
     }
+
     return 0;
 }

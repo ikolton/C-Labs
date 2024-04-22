@@ -1,4 +1,4 @@
-# Install script for directory: F:/Programowanie/UJ/CPP-Labs/Zad1
+# Install script for directory: F:/Programowanie/UJ/CPP-Labs/lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
