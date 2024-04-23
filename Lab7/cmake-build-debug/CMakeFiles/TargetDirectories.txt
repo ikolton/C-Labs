@@ -1,2 +1,2 @@
-F:/Programowanie/UJ/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/Programowanie/UJ/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

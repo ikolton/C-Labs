@@ -25,18 +25,18 @@
 // Type traits for Vector
 template<typename T>
 struct vector_traits {
-    // By default, pass arguments of type T by const reference
+
     using argument_type = const T&;
 
-    // By default, scalar type is T
+
     using scalar_type = T;
 
-    // By default, use multiplication for scalar operation
+
     static T multiply(const T& scalar, const T& value) {
         return scalar * value;
     }
 
-    // Static method to return the default value of type T
+
     static T default_value() {
         return T();
     }
@@ -146,7 +146,6 @@ template <typename T, size_t N, typename P = FastPolicy>
 class Vector : P {
     T data[N];
 
-
 public:
     typedef T value_type;
     typedef std::size_t  size_type;
@@ -175,7 +174,7 @@ public:
         return N;
     }
 
-    const typename vector_traits<T>::argument_type get(size_type index) const {
+    typename vector_traits<T>::argument_type get(size_type index) const {
         P::check_index(index, N);
         return data[index];
     }
