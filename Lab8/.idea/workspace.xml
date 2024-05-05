@@ -3,15 +3,18 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Lab8" targetName="Lab8" />
+      <config projectName="lab7" targetName="Filter" />
+      <config projectName="lab7" targetName="Range" />
+      <config projectName="lab7" targetName="MatrixModifiers" />
+      <config projectName="lab7" targetName="MatrixIterator" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,138 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fede5f2b-640f-48eb-ae05-4dbbd09e5ae1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab7/ex_8_1_type_traits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/ex_8_2_Vector_traits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/ex_8_3_Vector_policies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/ex_8_4_Vector_operators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Lab8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matrix1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Range.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-94147711645ec0f9cda7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6799a4404a974e1f42b3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b0a21bd4e1779f360681.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-23T09-41-58-0375.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Lab8-Debug-7ac01c24a91bf4cc6c9a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7096c62e23c342eb06a8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_7_1_Range" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_7_1_Range.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_7_2_MatrixModifiers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_7_2_MatrixModifiers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_7_3_MatrixIterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex_7_4_Filter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/Vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.cmake/api/v1/reply/cache-v2-97e6cae18fe773cdc294.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-19880efebc4d3d9daf1c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d31b09296133c458d2f4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-20T07-36-20-0649.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-f1b2b3b9642b509dfa7c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/linkLibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex1_type_traits.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/ex_8_1_type_traits.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/ex_8_1_type_traits.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/ex_8_2_Vector_traits.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/ex_8_2_Vector_traits.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/linkLibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex2_traits.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/linkLibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex3_policies.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/linkLibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/ex4_operators.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/ex_8_4_Vector_operators.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/ex_8_4_Vector_operators.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-94147711645ec0f9cda7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6799a4404a974e1f42b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-b0a21bd4e1779f360681.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-23T09-41-58-0375.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Lab8-Debug-7ac01c24a91bf4cc6c9a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,9 +52,9 @@
     <option name="minorVersion" value="1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fUp3z03t6kX8LKeKXE8Bhb8PZJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,39 +63,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "C/C++ File.ex_7_1_Range.cpp.executor": "Run",
-    "C/C++ File.ex_7_2_MatrixModifiers.cpp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File.ex_7_1_Range.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ex_7_2_MatrixModifiers.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.ex_7_2_MatrixModifiers.cpp">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab8" TARGET_NAME="Lab8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab8" RUN_TARGET_NAME="Lab8">
+    <configuration name="Filter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab7" TARGET_NAME="Filter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab7" RUN_TARGET_NAME="Filter">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixIterator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab7" TARGET_NAME="MatrixIterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab7" RUN_TARGET_NAME="MatrixIterator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixModifiers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab7" TARGET_NAME="MatrixModifiers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab7" RUN_TARGET_NAME="MatrixModifiers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Range" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab7" TARGET_NAME="Range" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab7" RUN_TARGET_NAME="Range">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_7_1_Range.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab8" TARGET_NAME="ex_7_1_Range.cpp" CONFIG_NAME="ex_7_1_Range.cpp">
+      <option name="sourceFile" value="ex_7_1_Range.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ex_7_1_Range.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab8" TARGET_NAME="ex_7_1_Range.cpp" CONFIG_NAME="ex_7_1_Range.cpp">
@@ -230,10 +131,19 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex_7_2_MatrixModifiers.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab8" TARGET_NAME="ex_7_2_MatrixModifiers.cpp" CONFIG_NAME="ex_7_2_MatrixModifiers.cpp">
+      <option name="sourceFile" value="ex_7_2_MatrixModifiers.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="C/C++ File.ex_7_1_Range.cpp" />
       <item itemvalue="C/C++ File.ex_7_2_MatrixModifiers.cpp" />
-      <item itemvalue="CMake Application.Lab8" />
+      <item itemvalue="CMake Application.Filter" />
+      <item itemvalue="CMake Application.MatrixIterator" />
+      <item itemvalue="CMake Application.MatrixModifiers" />
+      <item itemvalue="CMake Application.Range" />
     </list>
     <recent_temporary>
       <list>
@@ -251,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713865315961</updated>
       <workItem from="1713865317462" duration="4430000" />
+      <workItem from="1714739961664" duration="6000" />
     </task>
     <servers />
   </component>

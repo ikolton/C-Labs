@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <iomanip>
 #include <vector>
+#include <numeric>
 #include "Matrix.h"
 using namespace std;
 
@@ -22,7 +23,7 @@ int main(){
 
     auto prod = std::inner_product(m.row_begin(1), m.row_end(1), m.row_begin(2), 0.0);
     cout << "inner product of 1st and 2nd row = " << prod << endl;
-
+//    cout << "  " << *m.col_end(3);
     for(DMatrix::col_iterator it = m.col_begin(3); it != m.col_end(3); ++it)
         cout << setw(6) << *it << " ";
     cout << endl;
@@ -40,7 +41,7 @@ int main(){
     }
     const auto mconst = m;
     cout << " mconst = ";
-    for(auto x : m){
+    for(auto x : mconst){
         cout << x << " ";
     }
     cout << endl;

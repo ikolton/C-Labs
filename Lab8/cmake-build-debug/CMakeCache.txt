@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Lab8
+CMAKE_PROJECT_NAME:STATIC=lab7
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,15 @@ Lab8_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Lab8_SOURCE_DIR:STATIC=/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8
+
+//Value Computed by CMake
+lab7_BINARY_DIR:STATIC=/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/cmake-build-debug
+
+//Value Computed by CMake
+lab7_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+lab7_SOURCE_DIR:STATIC=/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8
 
 
 ########################
