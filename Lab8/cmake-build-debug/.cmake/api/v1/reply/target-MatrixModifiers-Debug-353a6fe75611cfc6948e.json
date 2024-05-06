@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MatrixModifiers"
+			"path" : "MatrixModifiers.exe"
+		},
+		{
+			"path" : "MatrixModifiers.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -86,14 +89,18 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-rdynamic",
+				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "MatrixModifiers",
-	"nameOnDisk" : "MatrixModifiers",
+	"nameOnDisk" : "MatrixModifiers.exe",
 	"paths" : 
 	{
 		"build" : ".",

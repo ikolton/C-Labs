@@ -11,5 +11,6 @@ add_executable(MatrixModifiers ex_7_2_MatrixModifiers.cpp Matrix.h )
 
 add_executable(MatrixIterator ex_7_3_MatrixIterator.cpp Matrix.h )
 
-add_executable(Filter ex_7_4_Filter.cpp Filter.h)
+add_executable(Filter ex_7_4_Filter.cpp Filter.h
+        a.cpp)
 

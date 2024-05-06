@@ -13,47 +13,54 @@ class Matrix {
     T data[N * M];
 
 public:
-    // Iterator to iterate through the whole matrix in row by row order
-    template<typename U = T*>
-    class iterator {
-        T* ptr;
-        bool isCollumn = false;
-
-
+    template<typename E, typename Ref, typename Ptr>
+    class MatrixIterator {
+        E* ptr;
+        bool isColumn = false;
     public:
-        iterator(T* p) : ptr(p) {}
-        iterator(T* p, bool isCollumn) : ptr(p), isCollumn(isCollumn) {}
 
-        iterator& operator++() {
-            ptr += isCollumn ? M : 1;
+        MatrixIterator(E* p) : ptr(p) {}
+        MatrixIterator(T* p, bool isColumn) : ptr(p), isColumn(isColumn) {}
+
+        MatrixIterator& operator++() {
+            ptr += isColumn ? M : 1;
             return *this;
         }
 
-        T& operator*() const {
+        MatrixIterator operator++(int) {
+            MatrixIterator tmp = *this;
+            ++(*this);
+            return tmp;
+        }
+
+        Ref operator*() const {
             return *ptr;
         }
 
-        T* operator->() const {
+        Ptr operator->() const {
             return ptr;
         }
 
-        bool operator==(const iterator& other) const {
+        bool operator==(const MatrixIterator& other) const {
             return ptr == other.ptr;
         }
 
-        bool operator!=(const iterator& other) const {
+        bool operator!=(const MatrixIterator& other) const {
             return !(*this == other);
         }
     };
 
-    // Const iterator
-    using const_iterator = const T*;
+    //const iterator
+    using const_iterator = MatrixIterator<const T,const T&, const T*>;
 
     // Row iterator
-    using row_iterator = iterator<T*>;
+    using row_iterator = MatrixIterator<T, T&, T*>;
 
     // Column iterator
-    using col_iterator = iterator<T*>;
+    using col_iterator = MatrixIterator<T, T&, T*>;
+
+    //iterator
+    using iterator = MatrixIterator<T, T&, T*>;
 
     constexpr size_t numberOfRows() const noexcept { return N; }
     constexpr size_t numberOfColumns() const noexcept { return M; }
@@ -100,36 +107,36 @@ public:
 
     // Iterator functions
 
-    iterator<T*> begin() noexcept {
+    iterator begin() noexcept {
         return iterator(data);
     }
 
-    iterator<T*> end() noexcept {
+    iterator end() noexcept {
         return iterator(data + N * M);
     }
 
     const_iterator begin() const noexcept {
-        return data;
+        return const_iterator(data);
     }
 
     const_iterator end() const noexcept {
-        return data + N * M;
+        return const_iterator(data + N * M);
     }
 
     row_iterator row_begin(size_t n) noexcept {
-        return iterator(data + (n-1) * M);
+        return row_iterator(data + (n-1) * M);
     }
 
     row_iterator row_end(size_t n) noexcept {
-        return iterator(data + (n ) * M);
+        return row_iterator(data + n * M);
     }
 
-    iterator<T*> col_begin(size_t n) noexcept {
-        return iterator(data + (n-1), true);
+    col_iterator col_begin(size_t n) noexcept {
+        return col_iterator(data + (n-1), true);
     }
 
-    iterator<T*> col_end(size_t n) noexcept {
-        return iterator (data + N * M + (n-1), true);
+    col_iterator col_end(size_t n) noexcept {
+        return col_iterator(data + N * M + (n-1), true);
     }
 };
 

@@ -23,7 +23,7 @@ int main(){
 
     auto prod = std::inner_product(m.row_begin(1), m.row_end(1), m.row_begin(2), 0.0);
     cout << "inner product of 1st and 2nd row = " << prod << endl;
-//    cout << "  " << *m.col_end(3);
+
     for(DMatrix::col_iterator it = m.col_begin(3); it != m.col_end(3); ++it)
         cout << setw(6) << *it << " ";
     cout << endl;
@@ -45,6 +45,23 @@ int main(){
         cout << x << " ";
     }
     cout << endl;
+
+
+
+
+    cout << "Matrix:" << endl;
+    printMatrix(mconst);
+
+    // Testujemy const iterator
+    cout << "Const Iterator Test:" << endl;
+    for (auto it = mconst.begin(); it != mconst.end(); ++it) {
+        cout << *it << " "; // Spodziewamy się wartości tylko do odczytu
+        //*it = 0; // To powinno być niedozwolone przez const iterator
+    }
+    cout << endl;
+    printMatrix(mconst);
+
+
     return 0;
 }
 
