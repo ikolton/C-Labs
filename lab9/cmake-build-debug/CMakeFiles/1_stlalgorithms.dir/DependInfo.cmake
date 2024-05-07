@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/Programowanie/UJ/CPP-Labs/lab9/ex_9_1_stdalgorithms.cpp" "CMakeFiles/1_stlalgorithms.dir/ex_9_1_stdalgorithms.cpp.obj" "gcc" "CMakeFiles/1_stlalgorithms.dir/ex_9_1_stdalgorithms.cpp.obj.d"
+  "/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/ex_9_1_stdalgorithms.cpp" "CMakeFiles/1_stlalgorithms.dir/ex_9_1_stdalgorithms.cpp.o" "gcc" "CMakeFiles/1_stlalgorithms.dir/ex_9_1_stdalgorithms.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -41,10 +41,11 @@ public:
 
         Trie* node = this;
         for (const auto& word : sentence) {
-            if (!node->children[word]) {
-                node->children[word] = new Trie();
+            auto result = node->children.insert({word, nullptr});
+            if (result.second) { // If the insertion took place
+                result.first->second = new Trie();
             }
-            node = node->children[word];
+            node = result.first->second;
         }
     }
 
@@ -55,10 +56,11 @@ public:
 
         Trie* node = this;
         for (const auto& word : beginningOfSentence) {
-            if (!node->children[word]) {
+            auto it = node->children.find(word);
+            if (it == node->children.end()) {
                 return;
             }
-            node = node->children[word];
+            node = it->second;
         }
 
         string prefix = " > ";
@@ -92,6 +94,12 @@ public:
                 add(sentence);
                 sentence.clear();
             }
+        }
+    }
+
+    ~Trie() {
+        for(auto& child : children) {
+            delete child.second;
         }
     }
 

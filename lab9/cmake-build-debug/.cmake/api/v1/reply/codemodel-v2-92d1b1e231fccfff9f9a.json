@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.00"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab9_STL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1_stlalgorithms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_stlalgorithms-Debug-732e35302722bec328e2.json",
+					"name" : "1_stlalgorithms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_words::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_words-Debug-040cc3e11056de1dfd51.json",
+					"name" : "2_words",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3_trie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3_trie-Debug-fe4bac13d7846d816122.json",
+					"name" : "3_trie",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/cmake-build-debug",
+		"source" : "/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

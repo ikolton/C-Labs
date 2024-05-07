@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = F$:/Programowanie/UJ/CPP-Labs/Lab8/cmake-build-debug/
+cmake_ninja_workdir = /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Range
 
@@ -49,11 +49,11 @@ cmake_ninja_workdir = F$:/Programowanie/UJ/CPP-Labs/Lab8/cmake-build-debug/
 
 build cmake_object_order_depends_target_Range: phony || CMakeFiles/Range.dir
 
-build CMakeFiles/Range.dir/ex_7_1_Range.cpp.obj: CXX_COMPILER__Range_unscanned_Debug F$:/Programowanie/UJ/CPP-Labs/Lab8/ex_7_1_Range.cpp || cmake_object_order_depends_target_Range
-  DEP_FILE = CMakeFiles\Range.dir\ex_7_1_Range.cpp.obj.d
+build CMakeFiles/Range.dir/ex_7_1_Range.cpp.o: CXX_COMPILER__Range_unscanned_Debug /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/ex_7_1_Range.cpp || cmake_object_order_depends_target_Range
+  DEP_FILE = CMakeFiles/Range.dir/ex_7_1_Range.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror
-  OBJECT_DIR = CMakeFiles\Range.dir
-  OBJECT_FILE_DIR = CMakeFiles\Range.dir
+  OBJECT_DIR = CMakeFiles/Range.dir
+  OBJECT_FILE_DIR = CMakeFiles/Range.dir
 
 
 # =============================================================================
@@ -61,17 +61,16 @@ build CMakeFiles/Range.dir/ex_7_1_Range.cpp.obj: CXX_COMPILER__Range_unscanned_D
 
 
 #############################################
-# Link the executable Range.exe
+# Link the executable Range
 
-build Range.exe: CXX_EXECUTABLE_LINKER__Range_Debug CMakeFiles/Range.dir/ex_7_1_Range.cpp.obj
+build Range: CXX_EXECUTABLE_LINKER__Range_Debug CMakeFiles/Range.dir/ex_7_1_Range.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Range.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Range.exe
-  TARGET_IMPLIB = libRange.dll.a
-  TARGET_PDB = Range.exe.dbg
+  LINK_FLAGS = -rdynamic
+  OBJECT_DIR = CMakeFiles/Range.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Range
+  TARGET_PDB = Range.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MatrixModifiers
@@ -82,11 +81,11 @@ build Range.exe: CXX_EXECUTABLE_LINKER__Range_Debug CMakeFiles/Range.dir/ex_7_1_
 
 build cmake_object_order_depends_target_MatrixModifiers: phony || CMakeFiles/MatrixModifiers.dir
 
-build CMakeFiles/MatrixModifiers.dir/ex_7_2_MatrixModifiers.cpp.obj: CXX_COMPILER__MatrixModifiers_unscanned_Debug F$:/Programowanie/UJ/CPP-Labs/Lab8/ex_7_2_MatrixModifiers.cpp || cmake_object_order_depends_target_MatrixModifiers
-  DEP_FILE = CMakeFiles\MatrixModifiers.dir\ex_7_2_MatrixModifiers.cpp.obj.d
+build CMakeFiles/MatrixModifiers.dir/ex_7_2_MatrixModifiers.cpp.o: CXX_COMPILER__MatrixModifiers_unscanned_Debug /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/ex_7_2_MatrixModifiers.cpp || cmake_object_order_depends_target_MatrixModifiers
+  DEP_FILE = CMakeFiles/MatrixModifiers.dir/ex_7_2_MatrixModifiers.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror
-  OBJECT_DIR = CMakeFiles\MatrixModifiers.dir
-  OBJECT_FILE_DIR = CMakeFiles\MatrixModifiers.dir
+  OBJECT_DIR = CMakeFiles/MatrixModifiers.dir
+  OBJECT_FILE_DIR = CMakeFiles/MatrixModifiers.dir
 
 
 # =============================================================================
@@ -94,17 +93,16 @@ build CMakeFiles/MatrixModifiers.dir/ex_7_2_MatrixModifiers.cpp.obj: CXX_COMPILE
 
 
 #############################################
-# Link the executable MatrixModifiers.exe
+# Link the executable MatrixModifiers
 
-build MatrixModifiers.exe: CXX_EXECUTABLE_LINKER__MatrixModifiers_Debug CMakeFiles/MatrixModifiers.dir/ex_7_2_MatrixModifiers.cpp.obj
+build MatrixModifiers: CXX_EXECUTABLE_LINKER__MatrixModifiers_Debug CMakeFiles/MatrixModifiers.dir/ex_7_2_MatrixModifiers.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\MatrixModifiers.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = MatrixModifiers.exe
-  TARGET_IMPLIB = libMatrixModifiers.dll.a
-  TARGET_PDB = MatrixModifiers.exe.dbg
+  LINK_FLAGS = -rdynamic
+  OBJECT_DIR = CMakeFiles/MatrixModifiers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MatrixModifiers
+  TARGET_PDB = MatrixModifiers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MatrixIterator
@@ -115,11 +113,11 @@ build MatrixModifiers.exe: CXX_EXECUTABLE_LINKER__MatrixModifiers_Debug CMakeFil
 
 build cmake_object_order_depends_target_MatrixIterator: phony || CMakeFiles/MatrixIterator.dir
 
-build CMakeFiles/MatrixIterator.dir/ex_7_3_MatrixIterator.cpp.obj: CXX_COMPILER__MatrixIterator_unscanned_Debug F$:/Programowanie/UJ/CPP-Labs/Lab8/ex_7_3_MatrixIterator.cpp || cmake_object_order_depends_target_MatrixIterator
-  DEP_FILE = CMakeFiles\MatrixIterator.dir\ex_7_3_MatrixIterator.cpp.obj.d
+build CMakeFiles/MatrixIterator.dir/ex_7_3_MatrixIterator.cpp.o: CXX_COMPILER__MatrixIterator_unscanned_Debug /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/ex_7_3_MatrixIterator.cpp || cmake_object_order_depends_target_MatrixIterator
+  DEP_FILE = CMakeFiles/MatrixIterator.dir/ex_7_3_MatrixIterator.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror
-  OBJECT_DIR = CMakeFiles\MatrixIterator.dir
-  OBJECT_FILE_DIR = CMakeFiles\MatrixIterator.dir
+  OBJECT_DIR = CMakeFiles/MatrixIterator.dir
+  OBJECT_FILE_DIR = CMakeFiles/MatrixIterator.dir
 
 
 # =============================================================================
@@ -127,17 +125,16 @@ build CMakeFiles/MatrixIterator.dir/ex_7_3_MatrixIterator.cpp.obj: CXX_COMPILER_
 
 
 #############################################
-# Link the executable MatrixIterator.exe
+# Link the executable MatrixIterator
 
-build MatrixIterator.exe: CXX_EXECUTABLE_LINKER__MatrixIterator_Debug CMakeFiles/MatrixIterator.dir/ex_7_3_MatrixIterator.cpp.obj
+build MatrixIterator: CXX_EXECUTABLE_LINKER__MatrixIterator_Debug CMakeFiles/MatrixIterator.dir/ex_7_3_MatrixIterator.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\MatrixIterator.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = MatrixIterator.exe
-  TARGET_IMPLIB = libMatrixIterator.dll.a
-  TARGET_PDB = MatrixIterator.exe.dbg
+  LINK_FLAGS = -rdynamic
+  OBJECT_DIR = CMakeFiles/MatrixIterator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MatrixIterator
+  TARGET_PDB = MatrixIterator.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Filter
@@ -148,17 +145,11 @@ build MatrixIterator.exe: CXX_EXECUTABLE_LINKER__MatrixIterator_Debug CMakeFiles
 
 build cmake_object_order_depends_target_Filter: phony || CMakeFiles/Filter.dir
 
-build CMakeFiles/Filter.dir/ex_7_4_Filter.cpp.obj: CXX_COMPILER__Filter_unscanned_Debug F$:/Programowanie/UJ/CPP-Labs/Lab8/ex_7_4_Filter.cpp || cmake_object_order_depends_target_Filter
-  DEP_FILE = CMakeFiles\Filter.dir\ex_7_4_Filter.cpp.obj.d
+build CMakeFiles/Filter.dir/ex_7_4_Filter.cpp.o: CXX_COMPILER__Filter_unscanned_Debug /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/ex_7_4_Filter.cpp || cmake_object_order_depends_target_Filter
+  DEP_FILE = CMakeFiles/Filter.dir/ex_7_4_Filter.cpp.o.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror
-  OBJECT_DIR = CMakeFiles\Filter.dir
-  OBJECT_FILE_DIR = CMakeFiles\Filter.dir
-
-build CMakeFiles/Filter.dir/a.cpp.obj: CXX_COMPILER__Filter_unscanned_Debug F$:/Programowanie/UJ/CPP-Labs/Lab8/a.cpp || cmake_object_order_depends_target_Filter
-  DEP_FILE = CMakeFiles\Filter.dir\a.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -pedantic -Werror
-  OBJECT_DIR = CMakeFiles\Filter.dir
-  OBJECT_FILE_DIR = CMakeFiles\Filter.dir
+  OBJECT_DIR = CMakeFiles/Filter.dir
+  OBJECT_FILE_DIR = CMakeFiles/Filter.dir
 
 
 # =============================================================================
@@ -166,24 +157,23 @@ build CMakeFiles/Filter.dir/a.cpp.obj: CXX_COMPILER__Filter_unscanned_Debug F$:/
 
 
 #############################################
-# Link the executable Filter.exe
+# Link the executable Filter
 
-build Filter.exe: CXX_EXECUTABLE_LINKER__Filter_Debug CMakeFiles/Filter.dir/ex_7_4_Filter.cpp.obj CMakeFiles/Filter.dir/a.cpp.obj
+build Filter: CXX_EXECUTABLE_LINKER__Filter_Debug CMakeFiles/Filter.dir/ex_7_4_Filter.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Filter.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Filter.exe
-  TARGET_IMPLIB = libFilter.dll.a
-  TARGET_PDB = Filter.exe.dbg
+  LINK_FLAGS = -rdynamic
+  OBJECT_DIR = CMakeFiles/Filter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Filter
+  TARGET_PDB = Filter.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\Programowanie\UJ\CPP-Labs\Lab8\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cd /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/cmake-build-debug && /snap/clion/274/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -194,7 +184,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\Programowanie\UJ\CPP-Labs\Lab8\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\Programowanie\UJ\CPP-Labs\Lab8 -BF:\Programowanie\UJ\CPP-Labs\Lab8\cmake-build-debug"
+  COMMAND = cd /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/cmake-build-debug && /snap/clion/274/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8 -B/home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -204,23 +194,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Filter: phony Filter.exe
-
-build MatrixIterator: phony MatrixIterator.exe
-
-build MatrixModifiers: phony MatrixModifiers.exe
-
-build Range: phony Range.exe
-
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: F:/Programowanie/UJ/CPP-Labs/Lab8/cmake-build-debug
+# Folder: /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/cmake-build-debug
 
-build all: phony Range.exe MatrixModifiers.exe MatrixIterator.exe Filter.exe
+build all: phony Range MatrixModifiers MatrixIterator Filter
 
 # =============================================================================
 # Unknown Build Time Dependencies.
@@ -234,14 +216,14 @@ build all: phony Range.exe MatrixModifiers.exe MatrixIterator.exe Filter.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake F$:/Programowanie/UJ/CPP-Labs/Lab8/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/CMakeLists.txt /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake F$:/Programowanie/UJ/CPP-Labs/Lab8/CMakeLists.txt: phony
+build /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab8/CMakeLists.txt /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /snap/clion/274/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

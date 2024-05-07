@@ -16,14 +16,14 @@ public:
     template<typename E, typename Ref, typename Ptr>
     class MatrixIterator {
         E* ptr;
-        bool isColumn = false;
+        size_t jump=1;
     public:
 
         MatrixIterator(E* p) : ptr(p) {}
-        MatrixIterator(T* p, bool isColumn) : ptr(p), isColumn(isColumn) {}
+        MatrixIterator(T* p, size_t jump) : ptr(p), jump(jump) {}
 
         MatrixIterator& operator++() {
-            ptr += isColumn ? M : 1;
+            ptr += jump;
             return *this;
         }
 
@@ -132,11 +132,11 @@ public:
     }
 
     col_iterator col_begin(size_t n) noexcept {
-        return col_iterator(data + (n-1), true);
+        return col_iterator(data + (n-1), M);
     }
 
     col_iterator col_end(size_t n) noexcept {
-        return col_iterator(data + N * M + (n-1), true);
+        return col_iterator(data + N * M + (n-1), M);
     }
 };
 

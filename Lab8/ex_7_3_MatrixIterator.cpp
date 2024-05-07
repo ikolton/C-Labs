@@ -53,13 +53,13 @@ int main(){
     printMatrix(mconst);
 
     // Testujemy const iterator
-    cout << "Const Iterator Test:" << endl;
-    for (auto it = mconst.begin(); it != mconst.end(); ++it) {
-        cout << *it << " "; // Spodziewamy się wartości tylko do odczytu
-        //*it = 0; // To powinno być niedozwolone przez const iterator
-    }
-    cout << endl;
-    printMatrix(mconst);
+//    cout << "Const Iterator Test:" << endl;
+//    for (auto it = mconst.begin(); it != mconst.end(); ++it) {
+//        cout << *it << " "; // Spodziewamy się wartości tylko do odczytu
+//        //*it = 0; // To powinno być niedozwolone przez const iterator
+//    }
+//    cout << endl;
+//    printMatrix(mconst);
 
 
     return 0;

@@ -37,7 +37,7 @@ public:
 
 template<typename Container, typename Predicate>
 class Filter{
-    Container c; // Store a copy for rvalue, or a reference for lvalue
+    Container c;
     Predicate p;
 public:
     Filter(Container&& nc, Predicate np):

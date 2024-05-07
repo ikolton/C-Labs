@@ -7,8 +7,8 @@ int main() {
     for( auto x : r1 )
         cout << x <<" ";  // 1 3 5 7
     cout << "\n";
-    for(auto x : r1)
-        cout << "--";
+//    for(auto x : r1)
+//        cout << "--";
     cout << "\n";
 
     Range<double> r2(1, 9, 1.5);

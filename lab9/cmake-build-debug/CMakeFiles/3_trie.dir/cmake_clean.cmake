@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "3_trie.exe"
-  "3_trie.exe.manifest"
+  "3_trie"
   "3_trie.pdb"
-  "CMakeFiles/3_trie.dir/ex_9_3_Trie.cpp.obj"
-  "CMakeFiles/3_trie.dir/ex_9_3_Trie.cpp.obj.d"
-  "lib3_trie.dll.a"
+  "CMakeFiles/3_trie.dir/ex_9_3_Trie.cpp.o"
+  "CMakeFiles/3_trie.dir/ex_9_3_Trie.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

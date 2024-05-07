@@ -1,5 +1,5 @@
-F:/Programowanie/UJ/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/1_stlalgorithms.dir
-F:/Programowanie/UJ/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/2_words.dir
-F:/Programowanie/UJ/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/3_trie.dir
-F:/Programowanie/UJ/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/Programowanie/UJ/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/1_stlalgorithms.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/2_words.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/3_trie.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ignajlo/Documents/EMCPP/CPP-Labs/lab9/cmake-build-debug/CMakeFiles/rebuild_cache.dir

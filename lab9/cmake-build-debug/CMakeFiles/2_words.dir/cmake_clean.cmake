@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "2_words.exe"
-  "2_words.exe.manifest"
+  "2_words"
   "2_words.pdb"
-  "CMakeFiles/2_words.dir/ex_9_2_words.cpp.obj"
-  "CMakeFiles/2_words.dir/ex_9_2_words.cpp.obj.d"
-  "lib2_words.dll.a"
+  "CMakeFiles/2_words.dir/ex_9_2_words.cpp.o"
+  "CMakeFiles/2_words.dir/ex_9_2_words.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
