@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.28"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lab10::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab10-Debug-9de1b1cb679aec555b15.json",
+					"jsonFile" : "target-lab10-Debug-c317a3d7bb21e7cc9b0e.json",
 					"name" : "lab10",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ignajlo/Documents/EMCPP/CPP-Labs/lab10/cmake-build-debug",
-		"source" : "/home/ignajlo/Documents/EMCPP/CPP-Labs/lab10"
+		"build" : "F:/Programowanie/UJ/CPP-Labs/lab10/cmake-build-debug",
+		"source" : "F:/Programowanie/UJ/CPP-Labs/lab10"
 	},
 	"version" : 
 	{
