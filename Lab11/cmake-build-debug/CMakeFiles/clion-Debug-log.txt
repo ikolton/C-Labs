@@ -1,4 +1,13 @@
-/snap/clion/274/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/274/bin/ninja/linux/x64/ninja -G Ninja -S /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab11 -B /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab11/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/ignajlo/Documents/EMCPP/CPP-Labs/Lab11/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S F:\Programowanie\UJ\CPP-Labs\Lab11 -B F:\Programowanie\UJ\CPP-Labs\Lab11\cmake-build-debug
+-- Configuring done (0.2s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: Lab11
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

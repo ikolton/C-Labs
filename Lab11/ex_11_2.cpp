@@ -1,70 +1,70 @@
-/*
- *Exercise 2. Filesystem
-Implement functions
-
- * Prints content of directory given by path
- * Format
- * [X] file_name file_size
- * where X equals D for directories, F for regular files, L for symlinks and space otherwise.
- * @param path directory path
-
-void printDirectory (std::string_view path);
-
- * Makes copies of all files matching fileNames regular expression in directory given by path
- * to files in the same directory but with changes extension to newExtension
- * @param path directory path
- * @param fileNames regular expression
- * @param newExtension new extension
-
-void changeExtension(fs::path path, std::string fileNames, std::string_view newExtension );
- */
-
+#include <iostream>
 #include <filesystem>
 #include <regex>
-#include <iostream>
+#include <string_view>
+
+namespace fs = std::filesystem;
 
 void printDirectory(std::string_view path) {
-    for (const auto &entry : std::filesystem::directory_iterator(path)) {
-        char type = ' ';
-        if (std::filesystem::is_directory(entry.status())) {
-            type = 'D';
-        } else if (std::filesystem::is_regular_file(entry.status())) {
-            type = 'F';
-        } else if (std::filesystem::is_symlink(entry.symlink_status())) {
-            type = 'L';
-        }
+    try {
+        for (const auto& entry : fs::directory_iterator(path)) {
+            const auto& file_path = entry.path();
+            char type = ' ';
 
-        std::cout << "[" << type << "] " << entry.path().filename();
-        if (type == 'F') {
-            std::cout << " " << std::filesystem::file_size(entry);
+            if (fs::is_directory(entry.status())) {
+                type = 'D';
+            } else if (fs::is_regular_file(entry.status())) {
+                type = 'F';
+            } else if (fs::is_symlink(entry.status())) {
+                type = 'L';
+            }
+
+            auto file_size = fs::is_regular_file(entry.status()) ? fs::file_size(file_path) : 0;
+            std::cout << "[" << type << "] " << file_path.filename().string() << " " << file_size << "\n";
         }
-        std::cout << '\n';
+    } catch (const fs::filesystem_error& e) {
+        std::cerr << "Filesystem error: " << e.what() << "\n";
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << "\n";
     }
 }
 
-void changeExtension(std::filesystem::path path, std::string fileNames, std::string_view newExtension) {
-    std::regex fileNamesRegex(fileNames);
-    for (const auto &entry : std::filesystem::directory_iterator(path)) {
-        if (std::filesystem::is_regular_file(entry.status()) && std::regex_match(entry.path().filename().string(), fileNamesRegex)) {
-            std::filesystem::path newPath = entry.path();
-            newPath.replace_extension(newExtension);
-            std::filesystem::copy(entry, newPath);
+void changeExtension(fs::path path, std::string fileNames, std::string_view newExtension) {
+    try {
+        std::regex file_pattern(fileNames);
+        for (const auto& entry : fs::directory_iterator(path)) {
+            if (fs::is_regular_file(entry.status())) {
+                const auto& file_path = entry.path();
+                std::string filename = file_path.filename().string();
+
+                if (std::regex_match(filename, file_pattern)) {
+                    fs::path new_file_path = file_path;
+                    new_file_path.replace_extension(newExtension);
+                    fs::copy_file(file_path, new_file_path, fs::copy_options::overwrite_existing);
+                    std::cout << "Copied: " << file_path << " to " << new_file_path << "\n";
+                }
+            }
         }
+    } catch (const fs::filesystem_error& e) {
+        std::cerr << "Filesystem error: " << e.what() << "\n";
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << "\n";
     }
 }
 
 int main() {
-    // Test printDirectory function
-    std::cout << "Testing printDirectory function with path './':\n";
-    printDirectory("./");
+    std::string path = "./test_directory"; // Replace with the path to your test directory
 
-    // Test changeExtension function
-    std::cout << "\nTesting changeExtension function with path './', fileNames '.txt$', and newExtension '.bak':\n";
-    changeExtension("./", ".bak$", ".txt");
+    std::cout << "Directory contents before changing extensions:\n";
+    printDirectory(path);
 
-    // Print directory content again to see the changes
-    std::cout << "\nDirectory content after changeExtension function:\n";
-    printDirectory("./");
+    std::string file_pattern = ".*\\.bak"; // Regex to match .bak files
+    std::string new_extension = ".txt";
+
+    changeExtension(path, file_pattern, new_extension);
+
+    std::cout << "\nDirectory contents after changing extensions:\n";
+    printDirectory(path);
 
     return 0;
 }

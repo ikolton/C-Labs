@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.28)
 project(Lab11)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Lab11 ex_11_1.cpp
-        ex_11_2.cpp
-        ex_11_3.cpp)
+add_executable(Lab11 main.cpp
+        ex_11_3.cpp
+        concepts.cpp
+        concepts.cpp)
