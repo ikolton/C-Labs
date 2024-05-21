@@ -3,4 +3,4 @@ project(lab12)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(lab12 random.cpp)
+add_executable(lab12 random.cpp ex_11_2_Mandelbrot.cpp EasyBMP.cpp)

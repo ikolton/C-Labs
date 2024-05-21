@@ -1,0 +1,3 @@
+F:/Programowanie/UJ/CPP-Labs/Lab12-Mandelbrot/cmake-build-debug/CMakeFiles/Lab12_Mandelbrot.dir
+F:/Programowanie/UJ/CPP-Labs/Lab12-Mandelbrot/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Programowanie/UJ/CPP-Labs/Lab12-Mandelbrot/cmake-build-debug/CMakeFiles/rebuild_cache.dir

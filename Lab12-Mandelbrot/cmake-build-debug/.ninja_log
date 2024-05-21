@@ -1,0 +1,13 @@
+# ninja log v5
+4	224	7379770155946912	build.ninja	91320ac1bd483852
+17	624	7379770162576199	CMakeFiles/Lab12_Mandelbrot.dir/EasyBMP.cpp.obj	d46fefb355acc746
+15	1069	7379770167042855	CMakeFiles/Lab12_Mandelbrot.dir/ex_11_2_Mandelbrot.cpp.obj	4e3103e6e7a4e767
+1070	1165	7379770167966640	Lab12_Mandelbrot.exe	b4c865a397307f81
+4	1253	7379772681445754	CMakeFiles/Lab12_Mandelbrot.dir/ex_11_2_Mandelbrot.cpp.obj	4e3103e6e7a4e767
+1253	1332	7379772682216967	Lab12_Mandelbrot.exe	b4c865a397307f81
+9	1400	7379778589712210	CMakeFiles/Lab12_Mandelbrot.dir/ex_11_2_Mandelbrot.cpp.obj	4e3103e6e7a4e767
+1401	1510	7379778590788210	Lab12_Mandelbrot.exe	b4c865a397307f81
+4	1396	7379780572035780	CMakeFiles/Lab12_Mandelbrot.dir/ex_11_2_Mandelbrot.cpp.obj	4e3103e6e7a4e767
+1397	1497	7379780573021709	Lab12_Mandelbrot.exe	b4c865a397307f81
+4	1392	7379781273664269	CMakeFiles/Lab12_Mandelbrot.dir/ex_11_2_Mandelbrot.cpp.obj	4e3103e6e7a4e767
+1392	1490	7379781274630199	Lab12_Mandelbrot.exe	b4c865a397307f81

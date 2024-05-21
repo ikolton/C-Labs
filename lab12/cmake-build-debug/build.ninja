@@ -55,6 +55,12 @@ build CMakeFiles/lab12.dir/random.cpp.obj: CXX_COMPILER__lab12_unscanned_Debug F
   OBJECT_DIR = CMakeFiles\lab12.dir
   OBJECT_FILE_DIR = CMakeFiles\lab12.dir
 
+build CMakeFiles/lab12.dir/ex_11_2_Mandelbrot.cpp.obj: CXX_COMPILER__lab12_unscanned_Debug F$:/Programowanie/UJ/CPP-Labs/lab12/ex_11_2_Mandelbrot.cpp || cmake_object_order_depends_target_lab12
+  DEP_FILE = CMakeFiles\lab12.dir\ex_11_2_Mandelbrot.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab12.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab12.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab12
@@ -63,7 +69,7 @@ build CMakeFiles/lab12.dir/random.cpp.obj: CXX_COMPILER__lab12_unscanned_Debug F
 #############################################
 # Link the executable lab12.exe
 
-build lab12.exe: CXX_EXECUTABLE_LINKER__lab12_Debug CMakeFiles/lab12.dir/random.cpp.obj
+build lab12.exe: CXX_EXECUTABLE_LINKER__lab12_Debug CMakeFiles/lab12.dir/random.cpp.obj CMakeFiles/lab12.dir/ex_11_2_Mandelbrot.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab12.dir
