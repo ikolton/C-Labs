@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\programowanie\\uj\\cpp-labs\\lab14\\vectormoduleinstantiate.ixx",
+        "ProvidedModule": "VectorModuleInstantiate",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

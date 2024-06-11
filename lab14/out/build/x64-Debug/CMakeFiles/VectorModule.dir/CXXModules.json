@@ -1,0 +1,32 @@
+{
+	"modules" : 
+	{
+		"VectorModule" : 
+		{
+			"bmi" : "F:/Programowanie/UJ/CPP-Labs/lab14/out/build/x64-Debug/CMakeFiles/VectorModule.dir/VectorModule.ifc",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"VectorModule" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles\\VectorModule.dir\\VectorModule.ifc"
+		}
+	},
+	"usages" : 
+	{
+		"VectorModule" : 
+		[
+			"cassert",
+			"cmath",
+			"initializer_list",
+			"iostream",
+			"memory",
+			"stdexcept",
+			"string",
+			"vector"
+		]
+	}
+}

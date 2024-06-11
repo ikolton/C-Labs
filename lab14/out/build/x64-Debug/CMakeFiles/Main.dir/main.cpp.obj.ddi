@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Main.dir\\main.cpp.obj",
+            "outputs": [
+                "F:\\Programowanie\\UJ\\CPP-Labs\\lab14\\out\\build\\x64-Debug\\vc140.pdb",
+                "CMakeFiles\\Main.dir\\main.cpp.obj.ddi"
+            ],
+            "requires": [
+                {
+                    "logical-name": "VectorModule"
+                }
+            ]
+        }
+    ]
+}

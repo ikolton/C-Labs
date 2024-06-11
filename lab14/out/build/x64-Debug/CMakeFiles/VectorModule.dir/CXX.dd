@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\VectorModule.dir\VectorModule.ixx.obj | CMakeFiles\VectorModule.dir\VectorModule.ifc: dyndep
+  restat = 1
+

@@ -1,0 +1,12 @@
+# ninja log v5
+29	79	7397988156910215	CMakeFiles/VectorModuleInstantiations.dir/VectorInstantiations.cpp.obj.ddi	a55b6ed22d2c611d
+37	61	7397996832853269	CMakeFiles/Main.dir/CXX.dd	96820347e4a07d71
+3	43	7397996832608890	CMakeFiles/VectorModule.dir/VectorModule.ixx.obj.ddi	37848e14d41a501f
+9	37	7397996832598884	CMakeFiles/Main.dir/main.cpp.obj.ddi	26caac6167da44c1
+5	165	7397998966852861	build.ninja	a3af6ec5cc8cd06d
+37	61	7397996832853269	F:/Programowanie/UJ/CPP-Labs/lab14/out/build/x64-Debug/CMakeFiles/Main.dir/CXXModules.json	96820347e4a07d71
+6	40	7397996832608890	CMakeFiles/VectorModuleInstantiations.dir/VectorModuleInstantiate.ixx.obj.ddi	63e99bb2fb6a2dab
+37	61	7397996832853269	CMakeFiles/Main.dir/main.cpp.obj.modmap	96820347e4a07d71
+40	70	7397996832923533	CMakeFiles/VectorModuleInstantiations.dir/CXX.dd	428ddffb4a29cef4
+40	70	7397996832923533	F:/Programowanie/UJ/CPP-Labs/lab14/out/build/x64-Debug/CMakeFiles/VectorModuleInstantiations.dir/CXXModules.json	428ddffb4a29cef4
+40	70	7397996832923533	CMakeFiles/VectorModuleInstantiations.dir/VectorModuleInstantiate.ixx.obj.modmap	428ddffb4a29cef4

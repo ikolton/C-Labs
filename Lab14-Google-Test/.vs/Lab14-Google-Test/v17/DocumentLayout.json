@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F79653-7922-4F43-B4FA-5ADC0BCEEA09}|Lab14-Google-Test.vcxproj|F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4F79653-7922-4F43-B4FA-5ADC0BCEEA09}|Lab14-Google-Test.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F79653-7922-4F43-B4FA-5ADC0BCEEA09}|Lab14-Google-Test.vcxproj|F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4F79653-7922-4F43-B4FA-5ADC0BCEEA09}|Lab14-Google-Test.vcxproj|solutionrelative:pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\pch.cpp",
+              "RelativeDocumentMoniker": "pch.cpp",
+              "ToolTip": "F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\pch.cpp",
+              "RelativeToolTip": "pch.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-11T08:06:53.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "F:\\Programowanie\\UJ\\CPP-Labs\\Lab14-Google-Test\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-11T08:02:55.91Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

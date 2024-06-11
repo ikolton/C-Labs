@@ -1,0 +1,12 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S F:\Programowanie\UJ\CPP-Labs\lab14 -B F:\Programowanie\UJ\CPP-Labs\lab14\cmake-build-debug
+CMake Error at CMakeLists.txt:24 (target_link_libraries):
+  Target "VectorModule" of type MODULE_LIBRARY may not be linked into another
+  target.  One may link only to INTERFACE, OBJECT, STATIC or SHARED
+  libraries, or to executables with the ENABLE_EXPORTS property set.
+
+
+-- Configuring incomplete, errors occurred!
+
+Problems were encountered while collecting compiler information:
+	cc1plus.exe: fatal error: /experimental:module: No such file or directory
+	cc1plus.exe: fatal error: /module:export: No such file or directory

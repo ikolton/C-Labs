@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "F:/Programowanie/UJ/CPP-Labs/lab14/out/build/x64-Debug",
+	"dir-cur-src" : "F:/Programowanie/UJ/CPP-Labs/lab14",
+	"dir-top-bld" : "F:/Programowanie/UJ/CPP-Labs/lab14/out/build/x64-Debug",
+	"dir-top-src" : "F:/Programowanie/UJ/CPP-Labs/lab14",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "F:/Programowanie/UJ/CPP-Labs/lab14/out/build/x64-Debug/CMakeFiles/Main.dir"
+}

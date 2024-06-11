@@ -1,0 +1,3 @@
+F:\Programowanie\UJ\CPP-Labs\Lab14-Google-Test\x64\Debug\gtest.pdb
+F:\Programowanie\UJ\CPP-Labs\Lab14-Google-Test\x64\Debug\gtest_main.pdb
+F:\Programowanie\UJ\CPP-Labs\Lab14-Google-Test\Lab14-Go.f4f79653\x64\Debug\Lab14-Go.3E26A5D6.Up2Date

@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\programowanie\\uj\\cpp-labs\\lab14\\vectormodule.ixx",
+        "ProvidedModule": "VectorModule",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
