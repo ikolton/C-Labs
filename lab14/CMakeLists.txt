@@ -11,7 +11,7 @@ target_compile_options(VectorModule PRIVATE /std:c++latest /experimental:module 
 target_include_directories(VectorModule PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Define the VectorModuleInstantiations library
-add_library(VectorModuleInstantiations OBJECT VectorModuleInstantiate.ixx)
+add_library(VectorModuleInstantiations OBJECT VectorModuleInstantiate.cpp)
 target_compile_options(VectorModuleInstantiations PRIVATE /std:c++latest /experimental:module)
 target_include_directories(VectorModuleInstantiations PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
